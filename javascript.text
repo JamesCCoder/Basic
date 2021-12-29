@@ -47,9 +47,16 @@ through the inspect of the browser.
 // uuuu
 
 
+
 4. Declare a varible
 
 let a = 123;
+
+
+5. varible name 
+
+start with: _ $ letter
+follow with: _ $ letter number
 
 
 
