@@ -82,6 +82,15 @@ constants cannot be changed;
 let number = 123;
 showMessage(typeof number);
 
+
+
 9. string
 
 let s = "Hello \"world\"";
+
+
+
+10. reference varible
+
+let a = "Hello"
+let s = `${a} \"world\"`;
