@@ -73,3 +73,9 @@ const price = 99.99;
 
 constants cannot be changed;
 
+
+
+8. type
+
+let number = 123;
+showMessage(typeof number);
