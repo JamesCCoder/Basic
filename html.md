@@ -142,5 +142,5 @@ VS Code
       &trade;
     </footer>
   </body>  
-      
+      <script type="text/javascript" src="script.js"><script>
 </html>
