@@ -10,3 +10,7 @@ open folder
 -npm install
 -npm run start
 
+
+<body>
+</body>
+<script src = "script.js"></script>
