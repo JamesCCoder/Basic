@@ -59,4 +59,14 @@ start with: _ $ letter
 follow with: _ $ letter number
 
 
+6. value can be changed
+
+let account;
+account = 123;
+account = 23.4;
+
+
+
+
+
 
