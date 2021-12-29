@@ -94,3 +94,12 @@ let s = "Hello \"world\"";
 
 let a = "Hello"
 let s = `${a} \"world\"`;
+
+
+11. string <-> number
+
+let number = 123;
+number = number.toString();
+
+let a = "123";
+let b = Number.parseFloat(a);
