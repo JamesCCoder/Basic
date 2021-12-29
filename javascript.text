@@ -67,6 +67,8 @@ account = 23.4;
 
 
 
+7. constants
 
+const price = 99.99;
 
 
