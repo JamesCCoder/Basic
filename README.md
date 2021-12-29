@@ -1,4 +1,5 @@
 # html
+https://www.runoob.com/html/html-quicklist.html
 
 VS Code
 
@@ -27,6 +28,7 @@ VS Code
            
          <a href = "www.google.com" target="_blank"> This is a link </a>
          <hr>
+         <br>
          <img src = "/image/logo.pgn" alt = "Big logo" width = "231" height = "142" />
            
        </header>
@@ -130,7 +132,11 @@ VS Code
     <input type="reset" value="重置">
     </form>
       
+    <iframe src = "www.google.com" name = "iframe_a"></iframe>
+      
     <footer>
+      &copy;
+      &trade;
     </footer>
   </body>  
       
