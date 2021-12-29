@@ -59,9 +59,9 @@ start with: _ $ letter
 follow with: _ $ letter number
 
 
-6. value can be changed
+6. value can be changed, including the categery and content
 
-let account;
+let account = true;
 account = 123;
 account = 23.4;
 
