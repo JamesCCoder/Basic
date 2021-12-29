@@ -15,3 +15,20 @@ open folder
 </body>
 <script src = "script.js"></script>
 <script src = "script1.js"></script>
+
+
+
+How to change the content of <h1>
+
+html:   
+
+     <h1 id = "message"> Hello </h1>
+
+javascript:
+
+function showMessage(message){
+     document.getElementById("message").textContent = message;
+}     
+
+showMessage("change the words");
+     
