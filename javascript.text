@@ -59,7 +59,7 @@ start with: _ $ letter
 follow with: _ $ letter number
 
 
-6. value can be changed, including the categery and content
+6. value can be changed, including the type and content
 
 let account = true;
 account = 123;
