@@ -79,3 +79,7 @@ constants cannot be changed;
 
 let number = 123;
 showMessage(typeof number);
+
+9. string
+
+let s = "Hello \"world\"";
