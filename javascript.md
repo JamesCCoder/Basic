@@ -13,4 +13,5 @@ open folder
 
 <body>
 </body>
+
 <script src = "script.js"></script>
