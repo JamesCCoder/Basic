@@ -18,7 +18,7 @@ open folder
 
 
 
-How to change the content of <h1>
+1. How to change the content of <h1>
 
 html:   
 
@@ -32,3 +32,10 @@ function showMessage(message){
 
 showMessage("change the words");
      
+
+
+
+2. How to detect the error?
+
+through the inspect of the browser.
+
