@@ -39,8 +39,17 @@ showMessage("change the words");
 
 through the inspect of the browser.
 
+
+
 3. Comment
 
 /*   111111.    */
 // uuuu
+
+
+4. Declare a varible
+
+let a = 123;
+
+
 
