@@ -103,3 +103,8 @@ number = number.toString();
 
 let a = "123";
 let b = Number.parseFloat(a);
+
+
+12. type in javascript
+
+string, number, boolean, null(let a = null), undefined(let a;), object, synbol
