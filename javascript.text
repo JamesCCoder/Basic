@@ -71,4 +71,5 @@ account = 23.4;
 
 const price = 99.99;
 
+constants cannot be changed;
 
