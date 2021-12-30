@@ -142,3 +142,8 @@ let person = {
 
 
 16. "=="  vs  "==="
+
+
+17. ternary operator
+
+    let message = (price > 10) ? "expensive" : "cheap";
