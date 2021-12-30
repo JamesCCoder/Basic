@@ -125,6 +125,10 @@ let person = {
     if(b === "yes"){
     console.log('yes');
     }
+    
+    if(c !== "yes"){
+    console.log('yes');
+    }
  
  
 14.
