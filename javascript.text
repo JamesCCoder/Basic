@@ -194,3 +194,19 @@ let person = {
     };
     
     console.log(person.name);
+    
+    
+23. symbol
+
+    let mySympol = Symbol();
+   
+    let info1 = {
+      name: '婷婷',
+      age: 24,
+      job: '公司前台',
+      [mySymbol('description')]: '平时喜欢做做瑜伽，人家有男朋友，你别指望了'
+     }
+     
+    let info2 = {
+      [mySymbol('description')]: '这小姑娘挺好的，挺热情的，嘿嘿嘿……'
+    }
