@@ -156,3 +156,41 @@ let person = {
     }
     
     myFunction();
+
+
+19. functions expression
+    
+    let myFunction = function(){
+        console.log("Hello");
+    }
+    
+    
+20. function (passing information)
+
+    function myFunction(words){
+       console.log("there are the "+ words);
+    }
+    myFunction("total words");
+    
+    let myFunction = function(words){
+        console.log("Hello" + words);
+    }
+    
+21. functions with return value
+ 
+    function calculation(n){
+         return n+2;
+    }
+    
+    console.log(calculation(3));
+    
+    
+22. object and DOM
+
+    let person = {
+        name: "John",
+        age: 12,
+        sex: male
+    };
+    
+    console.log(person.name);
