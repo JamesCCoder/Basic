@@ -132,4 +132,4 @@ let person = {
  
  
 14. falsy: false, 0, null, undefined, NaN
-    trusy: not falsy
+    truthy: not falsy
