@@ -190,7 +190,7 @@ let person = {
     let person = {
         name: "John",
         age: 12,
-        sex: male
+        sex: "male"
     };
     
     console.log(person.name);
