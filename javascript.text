@@ -139,3 +139,6 @@ let person = {
 
 15. fixed length
     12.34567.toFixed(2) = 12.34
+
+
+16. "=="  vs  "==="
