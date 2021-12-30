@@ -147,3 +147,12 @@ let person = {
 17. ternary operator
 
     let message = (price > 10) ? "expensive" : "cheap";
+
+
+18. function
+
+    function myFunction（）{
+        console.log("Hello");
+    }
+    
+    myFunction();
