@@ -113,3 +113,18 @@ let person = {
     firstname: "James",
     lastname: "Adams"  
 };
+
+
+
+13. if() statement
+
+    if(a > 5){
+    console.log('yes');
+    }
+    
+    if(b === "yes"){
+    console.log('yes');
+    }
+ 
+ 
+14.
