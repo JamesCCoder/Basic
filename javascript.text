@@ -131,4 +131,5 @@ let person = {
     }
  
  
-14.
+14. falsy: false, 0, null, undefined, NaN
+    trusy: not falsy
