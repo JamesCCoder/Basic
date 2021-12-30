@@ -240,3 +240,14 @@ let person = {
 
     const value = ["a", "b", "c"];
     console.log(value);
+    console.log(value[0]);
+    console.log(value[3]);                  //undefined
+
+    array is not a built-in object!!!!!!!! 在ECMA中，除了Number，String，null，undefined，Boolean，其它的实例都会归为object。
+    而创建Function或者Array这些类型的实例的时候，其实都是基于Object实例进行的一种扩展。只是多了一些特有属性。
+     
+    console.log(typeof value);               // object
+    console.log(Array.isArray(value));       // true
+    
+    
+28. 
