@@ -223,3 +223,20 @@ let person = {
         }
     
     }
+
+
+25. standard built-in object
+
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+   
+   
+   
+26. DOM (document object model)
+
+    https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+    
+    
+27. array
+
+    const value = ["a", "b", "c"];
+    console.log(value);
