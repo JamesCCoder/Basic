@@ -133,3 +133,9 @@ let person = {
  
 14. falsy: false, 0, null, undefined, NaN
     truthy: not falsy
+
+
+
+
+15. fixed length
+    12.34567.toFixed(2) = 12.34
