@@ -210,3 +210,16 @@ let person = {
     let info2 = {
       [mySymbol('description')]: '这小姑娘挺好的，挺热情的，嘿嘿嘿……'
     }
+
+
+24. object method
+
+    let person = {
+        name : "Hohn",
+        age: 12,
+        fulltime: true,
+        showInfor: function(age){
+             showMessage(this.name + " " + age); 
+        }
+    
+    }
