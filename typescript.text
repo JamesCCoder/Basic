@@ -38,4 +38,18 @@ so here is the logic:     ts -->  js  -->  html
   }
  2> delete app.js
  3> tsc
- 4> <script src="/app/app.js"></script>    ===>>>  <script src="/js/app.js"></script>      // ts will compile to js automately while running the file
+ 4> <script src="/app/app.js"></script>    ===>>>  <script src="/js/app.js"></script>      // ts will compile to js automately while running the file under js file
+
+3. inherited tsconfig.json
+
+  1> delete "files": ["app/app.ts"]
+  2> rename tsconfig.json  to tsconfig.base.json
+  3> create tsconfig.json under app file
+  4> edit tsconfig.json
+     {
+       "extends": "../tsconfig.base",
+       "compilerOptions": {
+         "removeComments": true
+       },
+       "inlcude": ["./**/*"]
+     }
