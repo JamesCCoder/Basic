@@ -53,3 +53,62 @@ so here is the logic:     ts -->  js  -->  html
        },
        "inlcude": ["./**/*"]
      }
+
+
+
+1. typescript types
+
+1. boolean 
+2. number
+3. string
+4. Array
+5. Enum
+
+6.void
+7.null
+8.undefined
+9.never
+10.any
+
+
+2. declarations with let/const
+
+   1.let
+   2.const
+
+3. type annotation and type inference
+
+   let x: string = "this is typescript";    
+   x = 42;                                    //wrong, cannot change type as javascript
+
+   let z = number = getNumber();
+   
+4. union types
+
+   let someValue: number | string
+   
+   someValue= 42;
+   someValue= "This is string";
+   
+*5 strict Null check 
+   
+   let a: string = "123";
+   a = null;                //wrong
+   
+   let b: string | null;
+   b = null;                 //right
+   b = undefined;            //wrong
+   
+   let c: string | null | undefined;
+   c = "123";
+   c = null;
+   c = undefined;
+   
+
+   
+   
+   
+   
+   
+   
+   
