@@ -5,3 +5,4 @@ ng new todo
 
 cd
 ng serve  / npm start              // different: npm start will execute (the order under package.json in scripts/start) or server.js  
+                                   // ng help  for more orders
