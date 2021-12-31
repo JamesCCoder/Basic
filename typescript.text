@@ -1,3 +1,5 @@
+https://ts.xcatliu.com/
+
 
 install typescript
 
@@ -54,7 +56,9 @@ so here is the logic:     ts -->  js  -->  html
        "inlcude": ["./**/*"]
      }
 
-
+4. multiple ts sources
+   https://app.pluralsight.com/course-player?clipId=09f4f9ce-0128-4cbc-9d8b-2b0c68e56f9a  
+   https://app.pluralsight.com/course-player?clipId=220d8851-fd35-41bd-94d2-7e24bb009cdf
 
 1. typescript types
 
@@ -146,3 +150,47 @@ so here is the logic:     ts -->  js  -->  html
    };
 
 
+   class Developer {
+         department: string;
+         private _title: string;
+         get title(): string{
+              return this._title;
+         }
+         set title(newTitle: string){
+              this._title = newTitle.toUpperCase();
+         }
+   
+   }
+   
+   
+   constructor
+   
+   class Developer{
+         constructor(){
+             console.log("try one");
+         }
+   }
+   
+   class WebDeveloper extends Developer{
+         favouriteEditor: string;
+         constructor(editor: string){
+             super();
+             this.favouritEditor = editor;
+         }
+   }
+   
+   
+   
+   10. modules
+   
+       why we use modules?
+       1. encapsulation
+       2. reusability
+       3. higher-level abstractions
+   
+   
+   
+   
+   
+   
+   
