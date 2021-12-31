@@ -12,3 +12,30 @@ tsc -app       compile a .ts deocument to .js document
 
 
 so here is the logic:     ts -->  js  -->  html
+
+
+1. typescript project file
+ 
+   create tsconfig.json
+   
+   tsc -init
+   
+2. make compilation automately
+
+  1> set tsconfig.json
+   {
+  "compilerOptions": {
+   
+    "target": "es5" 
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "js",
+    "strict": true ,
+    "skipLibCheck": true ,
+    "watch": true
+  },
+  "files": ["app/app.ts"]
+}
+  2> delete app.js
+  3> tsc
+  4> <script src="/app/app.js"></script>    ===>>>  <script src="/js/app.js"></script>
