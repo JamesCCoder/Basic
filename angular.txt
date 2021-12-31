@@ -7,3 +7,4 @@ cd
 ng serve  / npm start              // different: npm start will execute (the order under package.json in scripts/start) or server.js  
                                    // npm is just the way, and ng is the core. You can change orders under scripts mapping
                                    // ng help  for more orders
+                                   // core of angularCLI is webpack
