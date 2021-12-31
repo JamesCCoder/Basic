@@ -8,4 +8,4 @@ npm -g install typescript
 npm -install
 npm -start
 
-tsc -app       compile a .js deocument to .ts document
+tsc -app       compile a .ts deocument to .js document
