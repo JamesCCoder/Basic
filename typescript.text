@@ -10,7 +10,7 @@ npm -g install typescript
 npm -install
 npm -start
 
-tsc -app       compile a .ts deocument to .js document
+tsc app       compile a .ts deocument to .js document
 
 
 so here is the logic:     ts -->  js  -->  html
