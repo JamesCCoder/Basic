@@ -201,12 +201,14 @@ so here is the logic:     ts -->  js  -->  html
        相反地，如果一个文件不带有顶级的import或者export声明，那么它的内容被视为全局可见的（因此对模块也是可见的）。
        
        
-       exporting a declaration
-       
        1、export与export default均可用于导出常量、函数、文件、模块等
        2、你可以在其它文件或模块中通过import+(常量 | 函数 | 文件 | 模块)名的方式，将其导入，以便能够对其进行使用
        3、在一个文件或模块中，export、import可以有多个，export default仅有一个
        4、通过export方式导出，在导入时要加{ }，export default则不需要
+       
+       
+       
+       exporting a declaration
        
        export interface Person{}
        export function hirePerson(): void{}
@@ -214,5 +216,25 @@ so here is the logic:     ts -->  js  -->  html
    
    
    
+       export statements
+   
+       interface Person{}
+       function hirePerson(): void{}
+       class Employee{}
+       
+       export{Person, HirePerson, Employee};
    
    
+       importing from a module
+       
+       import {Person, hireDeveloper} from "./person"
+       let human: Person;
+       
+       import Employee from "./person";
+       
+       import * as HR from "./person";
+       
+       
+       
+       
+       
