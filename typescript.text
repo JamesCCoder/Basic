@@ -123,3 +123,26 @@ so here is the logic:     ts -->  js  -->  html
  
     let adder = (a, b) => a + b;
    
+9. custom types
+
+   interfaces and classes
+   
+   
+   interface Employee {
+         name: string;                               //must have
+         age?: number;                               //may have
+         [propName:string]: string;                  //byyourself
+   }
+   
+   interface Manager extends Employee{
+         department: string;
+         numOfEmployees: number;
+         schedulMeeting: (topic: string) => void;
+   }
+   
+   let newOne : Employee = {
+         name: "Tom",                                // , not ;
+         gender: "male"
+   };
+
+
