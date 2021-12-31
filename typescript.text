@@ -104,11 +104,22 @@ so here is the logic:     ts -->  js  -->  html
    c = null;
    c = undefined;
    
+6. type annotations of functions
 
+   function func(score: number, message: string): string{
+       return "this is a sentence";
+   }
    
+*7. default-initialized parameters
+
+    function sendGreeting(greeting: string = "Good morning!"): void {
+         console.log(greeting);
+    }
    
+    sendGreeting();                       // Good morning
+    sendGreeting("Good afternoon");       // Good afternoon
    
-   
-   
-   
+ 8. arrow function
+ 
+    let adder = (a, b) => a + b;
    
